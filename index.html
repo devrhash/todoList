@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body>
+	<div id="app"></div>
+ <div class="header">
+	 <h1 id="par1">Todo_List</h1>
+	 
+</div>
+	 <div id="box1">
+	 <input id="input1" placeholder="enter new task"></input>
+	 <button id="btn1">Add</button>
+	 </div>
+	 <div class="methodInput">
+	 <p>priority</p>
+	 <input class="input1" id="priority"></input>
+	 <p>Due Date</p>
+	 <input type="date" class="duedate" id="duedate"></input>
+	 </div>
+	 <div class="methodInput">
+		<p>tags</p>
+		<input id="inpTag"></input>
+		<button class="inpTag" id="addTag">add</button>
+		 <p>Category</p>
+	   <input id="inpCat"></input>
+	 </div>
+	 <div classs="methodInput">
+		<input class="searchBar" id="searchBar"></input>
+		<button class="search" id="search">search</button>
+		</div>
+		<div class="bottom">
+	 <div class="filter">
+		 <label>filter
+			<select id="filter">
+					<option value="priority">priority</option>
+					<option value="category">category</option>	
+			</select>
+			<select id="filterVal">
+				
+			</select>
+			<button id="apply">apply</button>
+			</label>
+	 </div>
+	 
+
+	    <div class="methodInput">
+		 <select class="sort" id="sorting">
+				<option value="duedate">duedate</option>
+				<option value="priority">priority</option>
+		 </select>
+		 <button class="sort" id="sort">sort</button>
+		</div>
+	</div>
+
+	 <div id="page"></div>
+	<script src="src/index.js">
+	</script>
+</body>
+
+</html>
